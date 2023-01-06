@@ -1,0 +1,9 @@
+read -p "Enter your Script Name : " Name
+echo '#!/bin/bash' > /root/vuy/$Name
+echo "#Script Created Date is: $(date)" >> /root/vuy/$Name
+echo '#Script Modified Date is: ' >> /root/vuy/$Name
+echo '#Version:' >> /root/vuy/$Name
+echo '#Purpose:' >> /root/vuy/$Name
+echo '#Author:' >> /root/vuy/$Name
+chmod +x /root/vuy/$Name
+

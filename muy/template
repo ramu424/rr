@@ -1,0 +1,6 @@
+read -p "Enter yout File Name: " file
+touch /root/muy/scripts/$file.sh
+echo '#!/bin/bash' > /root/muy/scripts/$file.sh
+echo 'Created date is:' `date` >> /root/muy/scripts/$file.sh
+echo '#Purpose:' >>  /root/muy/scripts/$file.sh
+echo '#version:' >>  /root/muy/scripts/$file.sh

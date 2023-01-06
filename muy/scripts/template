@@ -1,0 +1,8 @@
+read -p "Enter your script Name : " Name
+echo '#!/bin/bash' > /root/muy/scripts/$Name
+echo "#script Created date is: $(date)" >> /root/muy/scripts/$Name
+echo '#Purpose:' >> /root/muy/scripts/$Name
+echo '#Author:' >> /root/muy/scripts/$Name
+echo '#Modified Date:' >> /root/muy/scripts/$Name
+chmod +x /root/muy/scripts/$Name
+

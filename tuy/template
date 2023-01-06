@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "Enter your script Name : " Name
+echo '#!/bin/bash' > /root/tuy/$Name
+echo '#Author Name: ' >> /root/tuy/$Name 
+echo '#Purpose of Script: ' >> /root/tuy/$Name
+echo '#Script Modified date: ' >> /root/tuy/$Name
+
